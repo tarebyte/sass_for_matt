@@ -1,0 +1,36 @@
+/* Neat 1.7.0
+ * http://neat.bourbon.io
+ * Copyright 2012-2014 thoughtbot, inc.
+ * MIT License */
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit; }
+
+.tweet-block {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #69D2E7; }
+  .tweet-block:after {
+    content: "";
+    display: table;
+    clear: both; }
+  .tweet-block .tweets {
+    background-color: #F38630;
+    float: left;
+    display: block;
+    margin-right: 2.5641%;
+    width: 58.97436%;
+    margin-left: 20.51282%;
+    text-align: center;
+    color: #333; }
+    .tweet-block .tweets:last-child {
+      margin-right: 0; }
+
+/*# sourceMappingURL=style.css.map */

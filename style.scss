@@ -1,0 +1,17 @@
+@import "bourbon/bourbon";
+// @import "visual-grid";
+@import "grid-settings";
+@import "neat/neat";
+
+.tweet-block {
+  @include outer-container;
+  background-color: #69D2E7;
+
+  .tweets {
+    background-color: #F38630;
+    @include span-columns(6);
+    @include shift(2);
+    text-align: center;
+    color: #333;
+  }
+}
